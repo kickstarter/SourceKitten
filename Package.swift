@@ -9,8 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .Package(url: "https://github.com/jpsim/SWXMLHash.git", majorVersion: 1),
-    .Package(url: "https://github.com/jpsim/Commandant.git", majorVersion: 1),
-    .Package(url: "https://github.com/mbrandonw/Clang_C.git", majorVersion: 1)
+    .Package(url: "https://github.com/jpsim/Commandant.git", majorVersion: 1)
   ],
   exclude: ["Source/SourceKittenFrameworkTests"]
 )
